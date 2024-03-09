@@ -17,6 +17,28 @@
             ]
         }
     ],
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.aux-e",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk"
+    ],
     "workbench.colorCustomizations": {
         "activityBar.background": "#550C47",
         "titleBar.activeBackground": "#771163",
@@ -24,7 +46,7 @@
     },
     "editor.wordWrap": "on",
     "latex-workshop.latex.autoBuild.run": "onFileChange",
-    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.synctex.afterBuild.enabled": true,
     "latex-workshop.latex.recipe.default": "ucas"

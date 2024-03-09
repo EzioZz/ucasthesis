@@ -56,7 +56,7 @@ fi
 #-
 #-> Set compilation out directory resembling the inclusion hierarchy
 #-
-Tmp="Tmp"
+Tmp="./"
 Tex="Tex"
 if [[ ! -d $Tmp/$Tex ]]; then
     mkdir -p $Tmp/$Tex
