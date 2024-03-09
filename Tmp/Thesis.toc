@@ -1,0 +1,41 @@
+\contentsline {chapter}{\numberline {第1章\hspace {.3em}}绪论}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}研究目标和主要工作}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}面向矩阵乘法的代码自动生成工具}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}自适应性能调优}{2}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}基于DSL的矩阵乘法算子融合拓展}{2}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}论文组织结构}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {第2章\hspace {.3em}}问题背景与国内外研究进展}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}背景知识概述}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}矩阵乘法计算及其优化原理}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}申威SW26010P众核处理器}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Roofline 模型}{3}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}国内外研究现状}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}小结}{5}{section.2.3}%
+\contentsline {chapter}{\numberline {第3章\hspace {.3em}}面向矩阵乘法的代码自动生成工具}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}针对矩阵计算问题的建模}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}领域特定语言(Domain Specific Language)}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}面向矩阵乘法IR设计}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}DMA}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}RMA}{8}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}MMA}{8}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}其他IR}{8}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}针对体系结构特点的任务划分}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.5}用于优化的各种AST变换}{8}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}循环展开变换}{8}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}循环消除变换}{8}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}循环不变式外提变换}{8}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}软件流水线变换}{9}{subsection.3.5.4}%
+\contentsline {chapter}{\numberline {第4章\hspace {.3em}}自适应调优框架}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}先试试效果}{11}{section.4.1}%
+\contentsline {chapter}{\numberline {第5章\hspace {.3em}}算子融合}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}先试试效果}{13}{section.5.1}%
+\contentsline {chapter}{\numberline {第6章\hspace {.3em}}实验分析}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {第7章\hspace {.3em}}总结与展望}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}中国科学院大学学位论文撰写要求}{19}{appendix.A}%
+\contentsline {section}{\numberline {A.1}论文无附录者无需附录部分}{19}{section.A.1}%
+\contentsline {section}{\numberline {A.2}测试公式编号 $\mitLambda ,\mitlambda ,\mittheta ,\bar {\mitLambda },\sqrt {S_{NN}}$}{19}{section.A.2}%
+\contentsline {section}{\numberline {A.3}测试生僻字}{19}{section.A.3}%
+\contentsline {chapter}{参考文献}{21}{section*.17}%
+\contentsline {chapter}{致谢}{23}{appendix*.19}%
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{25}{appendix*.20}%

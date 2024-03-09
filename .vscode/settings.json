@@ -16,5 +16,16 @@
                 "ucas"
             ]
         }
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#550C47",
+        "titleBar.activeBackground": "#771163",
+        "titleBar.activeForeground": "#FFFBFE"
+    },
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.autoClean.run": "onFailed",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.latex.recipe.default": "ucas"
 }

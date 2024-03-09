@@ -1,0 +1,106 @@
+@misc{ArmPerformanceLibrariesa,
+  title = {Arm {{Performance Libraries}}},
+  urldate = {2023-12-25},
+  howpublished = {https://developer.arm.com/Tools\%20and\%20Software/Arm\%20Performance\%20Libraries},
+  keywords = {notion},
+  file = {/Users/yanyucheng/Zotero/storage/2RRT2HY6/Arm Performance Libraries.html}
+}
+
+@misc{CuBLAS,
+  title = {{{cuBLAS}}},
+  urldate = {2023-12-25},
+  howpublished = {https://docs.nvidia.com/cuda/cublas/index.html\#using-the-cublasxt-api},
+  keywords = {notion},
+  file = {/Users/yanyucheng/Zotero/storage/BGFZQE2J/index.html}
+}
+
+@misc{DenseLinearAlgebra,
+  title = {Dense {{Linear Algebra}}: {{AOCL-BLAS}} and {{AOCL-LAPACK}}},
+  urldate = {2023-12-25},
+  howpublished = {https://www.amd.com/en/developer/aocl/dense.html},
+  keywords = {notion},
+  file = {/Users/yanyucheng/Zotero/storage/BRT6DPI2/dense.html}
+}
+
+@misc{IntelOneAPIMatha,
+  title = {{{Intel}}{\textregistered} {{oneAPI Math Kernel Library}} - {{Data Parallel C}}++ {{Developer}}...},
+  journal = {Intel},
+  urldate = {2023-12-25},
+  abstract = {Intel{\textregistered} oneAPI Math Kernel Library Developer Reference for Data Parallel C++},
+  howpublished = {https://www.intel.com/content/www/us/en/docs/onemkl/developer-reference-dpcpp/2024-0/overview.html},
+  langid = {english},
+  keywords = {notion},
+  file = {/Users/yanyucheng/Zotero/storage/ZNZGNLR5/overview.html}
+}
+
+@misc{MAGMA,
+  title = {{{MAGMA}}},
+  urldate = {2023-12-25},
+  howpublished = {https://icl.utk.edu/magma/},
+  keywords = {notion}
+}
+
+@misc{MindSporeGuanWang,
+  title = {{MindSpore官网}},
+  urldate = {2023-12-22},
+  abstract = {华为开源自研AI框架MindSpore。自动微分、并行加持，一次训练，可多场景部署。支持端边云全场景的深度学习训练推理框架，主要应用于计算机视觉、自然语言处理等AI领域，面向数据科学家、算法工程师等人群。主要具备基于源码转换的通用自动微分、自动实现分布式并行训练、数据处理、以及图执行引擎等功能特性。借助自动微分，轻松训练神经网络。框架开源，华为培育AI开发生态。},
+  howpublished = {https://www.mindspore.cn/},
+  langid = {chinese},
+  keywords = {notion},
+  file = {/Users/yanyucheng/Zotero/storage/GUEBYU63/www.mindspore.cn.html}
+}
+
+@misc{OpenBLASOptimizedBLAS,
+  title = {{{OpenBLAS}} : {{An}} Optimized {{BLAS}} Library},
+  urldate = {2023-12-25},
+  howpublished = {https://www.openblas.net/},
+  keywords = {notion}
+}
+
+@misc{RocBLASDocumentationRocBLAS,
+  title = {{{rocBLAS Documentation}} --- {{rocBLAS Documentation}}},
+  urldate = {2023-12-25},
+  howpublished = {https://rocm.docs.amd.com/projects/rocBLAS/en/latest/},
+  keywords = {notion},
+  file = {/Users/yanyucheng/Zotero/storage/VZHMHCTX/latest.html}
+}
+
+@misc{SetLevelBasic,
+  title = {A Set of Level 3 Basic Linear Algebra Subprograms {\textbar} {{ACM Transactions}} on {{Mathematical Software}}},
+  urldate = {2023-12-25},
+  howpublished = {https://dl.acm.org/doi/10.1145/77626.79170},
+  keywords = {notion},
+  file = {/Users/yanyucheng/Zotero/storage/SX4T5RV4/77626.html}
+}
+
+@article{UpdatedSetBasic2002,
+  title = {An Updated Set of Basic Linear Algebra Subprograms ({{BLAS}})},
+  year = {2002},
+  month = jun,
+  journal = {ACM Transactions on Mathematical Software},
+  volume = {28},
+  number = {2},
+  pages = {135--151},
+  issn = {0098-3500},
+  doi = {10.1145/567806.567807},
+  urldate = {2024-03-04},
+  keywords = {/unread,BLAS,linear algebra,notion,standards},
+  file = {/Users/yanyucheng/Zotero/storage/XCQUGSYG/2002 - An updated set of basic linear algebra subprograms.pdf}
+}
+
+@article{vanzeeBLISFrameworkRapidly2015a,
+  title = {{{BLIS}}: {{A Framework}} for {{Rapidly Instantiating BLAS Functionality}}},
+  shorttitle = {{{BLIS}}},
+  author = {Van Zee, Field G. and {van de Geijn}, Robert A.},
+  year = {2015},
+  month = jun,
+  journal = {ACM Transactions on Mathematical Software},
+  volume = {41},
+  number = {3},
+  pages = {14:1--14:33},
+  issn = {0098-3500},
+  doi = {10.1145/2764454},
+  urldate = {2023-12-25},
+  abstract = {The BLAS-like Library Instantiation Software (BLIS) framework is a new infrastructure for rapidly instantiating Basic Linear Algebra Subprograms (BLAS) functionality. Its fundamental innovation is that virtually all computation within level-2 (matrix-vector) and level-3 (matrix-matrix) BLAS operations can be expressed and optimized in terms of very simple kernels. While others have had similar insights, BLIS reduces the necessary kernels to what we believe is the simplest set that still supports the high performance that the computational science community demands. Higher-level framework code is generalized and implemented in ISO C99 so that it can be reused and/or reparameterized for different operations (and different architectures) with little to no modification. Inserting high-performance kernels into the framework facilitates the immediate optimization of any BLAS-like operations which are cast in terms of these kernels, and thus the framework acts as a productivity multiplier. Users of BLAS-dependent applications are given a choice of using the traditional Fortran-77 BLAS interface, a generalized C interface, or any other higher level interface that builds upon this latter API. Preliminary performance of level-2 and level-3 operations is observed to be competitive with two mature open source libraries (OpenBLAS and ATLAS) as well as an established commercial product (Intel MKL).},
+  keywords = {BLAS,high-performance,libraries,Linear algebra,matrix,notion}
+}

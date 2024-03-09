@@ -21,7 +21,7 @@
 %---------------------------------------------------------------------------%
 %->> Document settings
 %---------------------------------------------------------------------------%
-\usepackage[authoryear,list]{Style/artratex}% document settings
+\usepackage[numbers,list]{Style/artratex}% document settings
 %- usage: \usepackage[option1,option2,...,optionN]{artratex}
 %- Multiple optional arguments:
 %- [bibtex|biber]% set bibliography processor and package
@@ -41,6 +41,32 @@
 %- [math]% enable some extra math packages
 %- [xlink]% disable link colors
 \usepackage{Style/artracom}% user defined commands
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+
+%- code definition
+\usepackage{listings}
+\usepackage{xcolor} % 提供颜色设置
+
+% 设置代码样式
+\lstset{
+    language=C, % 设置语言
+    basicstyle=\ttfamily\small, % 设置基本样式
+    keywordstyle=\color{blue}\ttfamily,
+    stringstyle=\color{red}\ttfamily,
+    commentstyle=\color{green}\ttfamily,
+    morecomment=[l][\color{magenta}]{\#},
+    breaklines=true, % 自动换行
+    numbers=left, % 行号在左侧
+    numberstyle=\tiny\color{gray}, % 行号样式
+    frame=single, % 代码框风格
+    backgroundcolor=\color{white}, % 背景颜色
+    captionpos=b, % 标题位置在底部
+    tabsize=4 % tab大小
+}
+
+
 %---------------------------------------------------------------------------%
 %->> Document inclusion
 %---------------------------------------------------------------------------%

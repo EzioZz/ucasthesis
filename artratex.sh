@@ -1,6 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 set -e
-
+# tex path
+export PATH="//Library/TeX/texbin/:$PATH"
 #---------------------------------------------------------------------------#
 #-                       LaTeX Automated Compiler                          -#
 #-                          <By Huangrui Mo>                               -#
@@ -103,7 +104,7 @@ fi
 #-
 #-> Open the compiled file
 #-
-$PDFviewer ./$Tmp/"$FileName".pdf || exit
+# $PDFviewer ./$Tmp/"$FileName".pdf || exit
 echo "---------------------------------------------------------------------------"
 echo "$TexCompiler $BibCompiler "$FileName".tex finished..."
 echo "---------------------------------------------------------------------------"
